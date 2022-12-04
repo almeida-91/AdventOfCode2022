@@ -60,7 +60,6 @@ elfArray.forEach( elfGroup => {
         if (firstElfBegin <= secondElfBegin && firstElfEnd >= secondElfBegin || secondElfBegin  <= firstElfBegin && secondElfEnd >= firstElfBegin){
             overlap++;
         }
-
     }
 });
 
