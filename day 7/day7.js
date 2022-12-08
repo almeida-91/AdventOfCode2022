@@ -29,7 +29,6 @@ for(let i = 0 ; i < input.length ; i++) {
   input[i] = input[i].split(' ');
 }
 
-let dirList = [];
 let dirArray = [];
 let currentDir = new directory("/");
 currentDir.previousDir = new directory('root');
